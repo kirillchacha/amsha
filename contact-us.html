@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Сontact us</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20241111194414">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js?_v=20241111194414"></script>
+	<script src="https://codepen.io/z-/pen/a8e37caf2a04602ea5815e5acedab458.js?_v=20241111194414"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="100" data-scroll-show class="header">
+			<div class="header__some-content">
+				<div class="header__block">
+					<a href="#" class="header__logo"><img src="img/logo-light.svg" alt="Logo"></a>
+					<a href="#" class="header__logo-mobile"><img src="img/logo-dark-no-text.svg" alt="Logo"></a>
+					<a href="#" class="header__text header__text--black">Amsha Advisory</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="common.html" class="menu__link menu__link--header-white">test</a></li>
+								<!--!Убрать-->
+								<li class="menu__item"><a href="index.html" class="menu__link menu__link--header-white">Home</a></li>
+								<li class="menu__item"><a href="about-us.html" class="menu__link menu__link--header-white">About
+										Us</a></li>
+								<li data-spollers="767.98" class="menu__item">
+									<a href="services-general.html" class="menu__link menu__link--header-white">Services</a>
+									<span class="menu__arrow-submenu _icon-arrow-left"></span>
+									<ul class="sub-menu__list">
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Employee Development &
+												Training</a></li>
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Entrepreneurial Consulting</a>
+										</li>
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Career Development</a></li>
+										<li class="sub-menu__item"><a href="services-separate.html" class="sub-menu__link">HR
+												Consultancy</a></li>
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Upskilling & Training</a></li>
+										<li class="sub-menu__item"><a href="#" class="sub-menu__link">Recruitment & Selection</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item"><a href="contact-us.html" class="menu__link menu__link--header-white">Contact
+										Us</a></li>
+							</ul>
+							<a href="#" class="menu__logo"><img src="img/logo-dark.svg" alt="Logo"></a>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<button type="button" class="actions-header__button button body-text-xs button--header"><span>Contact
+								Us</span></button>
+						<button type="button" class="menu__icon icon-menu"><span class="icon-menu__lines"></span><span class="icon-menu__text">Close</span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="contact-us">
+			<div class="contact-us__some-content">
+				<div class="contact-us__left left-contact-us">
+					<div class="left-contact-us__headline-block">
+						<h2 class="left-contact-us__headline title-headline title-headline--headline-xl">Contact Us</h2>
+					</div>
+					<div class="left-contact-us__parahraph body-text body-text--text-s">
+						<p class="left-contact-us__text">If your business is facing challenges with HR, employee development,
+							or organizational efficiency, or if you’re seeking expert guidance on people strategies, we’re here
+							to help. Whether you're looking to optimize your team, implement new training programs, or improve
+							your hiring processes, drop your details below, and one of our experts will reach out to you.</p>
+					</div>
+					<div class="left-contact-us__info info-l-contact">
+						<div class="info-l-contact__title-block">
+							<h3 class="info-l-contact__title title-headline title-headline--headline-m">Phone</h3>
+							<a href="#" class="info-l-contact__phone body-text body-text--text-s">+971 4 567 0152</a>
+							<a href="#" class="info-l-contact__phone body-text body-text--text-s">+971 4 567 0152</a>
+						</div>
+						<div class="info-l-contact__title-block">
+							<h3 class="info-l-contact__title title-headline title-headline--headline-m">Email</h3>
+							<a href="#" class="info-l-contact__email body-text body-text--text-s">hello@amshaadvisory.com</a>
+						</div>
+						<div class="info-l-contact__title-block">
+							<h3 class="info-l-contact__title title-headline title-headline--headline-m">Adress</h3>
+							<a href="#" class="info-l-contact__adress body-text body-text--text-s">Office 2902 29th
+								Floor, Iris Bay Tower, Business Bay,
+								Dubai, United Arab Emirates.</a>
+						</div>
+					</div>
+				</div>
+				<div class="contact-us__right right-contact-us">
+					<div class="right-contact-us__headline-block">
+						<h2 class="right-contact-us__headline title-headline title-headline--headline-l">Get in touch</h2>
+					</div>
+					<form class="right-contact-us__form form-r-contact" action="files/sendmail/sendmail.php" method="POST">
+						<div class="form-r-contact__line">
+							<label class="form-r-contact__label body-text body-text--text-s" for="name-01">Name of
+								company</label>
+							<input type="text" id="name-01" name="form[name]" data-validate data-required data-error placeholder="Enter a name" class="form-r-contact__input input">
+						</div>
+						<div class="form-r-contact__line">
+							<label class="form-r-contact__label body-text body-text--text-s" for="activity-01">Field
+								of activity</label>
+							<input type="text" id="activity-01" name="form[activity]" data-validate data-required data-error placeholder="Enter the field of activity" class="form-r-contact__input input">
+						</div>
+						<div class="form-r-contact__line">
+							<label class="form-r-contact__label body-text body-text--text-s" for="phone-01">Phone</label>
+							<input type="tel" id="phone-01" name="form[phone]" data-validate data-required data-error placeholder="Enter your phone number" class="form-r-contact__input input">
+						</div>
+						<div class="form-r-contact__line">
+							<label class="form-r-contact__label body-text body-text--text-s" for="email-01">Email</label>
+							<input type="text" id="email-01" name="form[email]" data-validate data-required="email" data-error placeholder="Enter your e-mail" class="form-r-contact__input input">
+						</div>
+						<div class="form-r-contact__line-button">
+							<button type="submit" class="form-r-contact__button button">Send Message</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__some-content">
+				<a href="#" class="footer__logo"><img src="img/logo-dark.svg" alt="Logo"></a>
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item"><a href="index.html" class="menu-footer__link title-headline title-headline--headline-s">Home</a></li>
+							<li class="menu-footer__item"><a href="about-us.html" class="menu-footer__link title-headline title-headline--headline-s">About Us</a></li>
+							<li class="menu-footer__item"><a href="services-general.html" class="menu-footer__link title-headline title-headline--headline-s">Services</a>
+							</li>
+							<li class="menu-footer__item"><a href="contact-us.html" class="menu-footer__link title-headline title-headline--headline-s">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__social-block block-social">
+					<ul class="block-social__list">
+						<li class="block-social__item"><a href="#" class="block-social__link title-headline title-headline--headline-m _icon-social-facebook"></a></li>
+						<li class="block-social__item"><a href="#" class="block-social__link title-headline title-headline--headline-m _icon-social-instagram"></a></li>
+						<li class="block-social__item"><a href="#" class="block-social__link title-headline title-headline--headline-m _icon-social-twitter"></a></li>
+						<li class="block-social__item"><a href="#" class="block-social__link title-headline title-headline--headline-m _icon-social-whatsapp"></a></li>
+						<li class="block-social__item"><a href="#" class="block-social__link title-headline title-headline--headline-m _icon-social-linkedin"></a></li>
+					</ul>
+				</div>
+				<div class="footer__local-and-copy body-text body-text--text-xs">
+					<div class="footer__location grey-text-color">
+						<p class="footer__location-text">Location - Office 2902 29th Floor, Iris Bay Tower, Business Bay, Dubai,
+							United
+							Arab Emirates.</p>
+					</div>
+					<div class="footer__copy grey-text-color">© 2024 Amsha Advisory</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20241111194414"></script>
+</body>
+
+</html>
